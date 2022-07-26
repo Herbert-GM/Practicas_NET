@@ -1,0 +1,11 @@
+E:\Practicas\Calcu2\bin\Debug\Calcu2.exe.config
+E:\Practicas\Calcu2\bin\Debug\Calcu2.exe
+E:\Practicas\Calcu2\bin\Debug\Calcu2.pdb
+E:\Practicas\Calcu2\obj\Debug\Calcu2.csproj.AssemblyReference.cache
+E:\Practicas\Calcu2\obj\Debug\Calcu2.csproj.SuggestedBindingRedirects.cache
+E:\Practicas\Calcu2\obj\Debug\Calcu2.Form1.resources
+E:\Practicas\Calcu2\obj\Debug\Calcu2.Properties.Resources.resources
+E:\Practicas\Calcu2\obj\Debug\Calcu2.csproj.GenerateResource.cache
+E:\Practicas\Calcu2\obj\Debug\Calcu2.csproj.CoreCompileInputs.cache
+E:\Practicas\Calcu2\obj\Debug\Calcu2.exe
+E:\Practicas\Calcu2\obj\Debug\Calcu2.pdb

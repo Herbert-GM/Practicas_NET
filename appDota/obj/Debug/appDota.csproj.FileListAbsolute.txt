@@ -1,0 +1,11 @@
+E:\Practicas\appDota\bin\Debug\appDota.exe.config
+E:\Practicas\appDota\bin\Debug\appDota.exe
+E:\Practicas\appDota\bin\Debug\appDota.pdb
+E:\Practicas\appDota\obj\Debug\appDota.csproj.AssemblyReference.cache
+E:\Practicas\appDota\obj\Debug\appDota.csproj.SuggestedBindingRedirects.cache
+E:\Practicas\appDota\obj\Debug\appDota.Form1.resources
+E:\Practicas\appDota\obj\Debug\appDota.Properties.Resources.resources
+E:\Practicas\appDota\obj\Debug\appDota.csproj.GenerateResource.cache
+E:\Practicas\appDota\obj\Debug\appDota.csproj.CoreCompileInputs.cache
+E:\Practicas\appDota\obj\Debug\appDota.exe
+E:\Practicas\appDota\obj\Debug\appDota.pdb
