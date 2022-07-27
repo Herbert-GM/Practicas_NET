@@ -86,24 +86,24 @@ namespace Calcu2
 
         public bool ValidarNumeros(int Criterio1, int Criterio2, int Criterio3)
         {
-            //Validacion objValidacion = new Validacion();
+            Validacion objValidacion = new Validacion();
 
-            //if (objValidacion.validarNumero(Convert.ToInt32(txtN1.Text), Criterio1))
-            //{
-            //    if(objValidacion.validarNumero(Convert.ToInt32(txtN2.Text), Criterio2))
-            //    {
-            //        if(objValidacion.validarNumero(Convert.ToInt32(txtN3.Text), Criterio3))
-            //        {
-                        
-            //            return true;
-            //        }
-            //        MessageBox.Show("El número 3 debe ser mayor a: " + Criterio3);
-            //        return false;
-            //    }
-            //    MessageBox.Show("El número 2 debe ser mayor a: " + Criterio2);
-            //    return false;                
-            //}
-            //MessageBox.Show("El número 1 debe ser mayor a: " + Criterio1);
+            if (objValidacion.validarNumero(Convert.ToInt32(txtN1.Text), Criterio1))
+            {
+                if (objValidacion.validarNumero(Convert.ToInt32(txtN2.Text), Criterio2))
+                {
+                    if (objValidacion.validarNumero(Convert.ToInt32(txtN3.Text), Criterio3))
+                    {
+
+                        return true;
+                    }
+                    MessageBox.Show("El número 3 debe ser mayor a: " + Criterio3);
+                    return false;
+                }
+                MessageBox.Show("El número 2 debe ser mayor a: " + Criterio2);
+                return false;
+            }
+            MessageBox.Show("El número 1 debe ser mayor a: " + Criterio1);
             return false;
         }
     }

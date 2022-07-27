@@ -28,6 +28,7 @@ namespace appDota
             CargarComboPlayer();
         }
 
+
         public void CargarComboPlayer()
         {
             // Datos del ComboBox
@@ -57,7 +58,7 @@ namespace appDota
             cbPlayer.ValueMember = "ID";
         }
 
-        
+
         private void cbPlayer_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Entra por 1ra vez en la linea 60;
@@ -67,7 +68,7 @@ namespace appDota
             {
                 return;
             }
-            MessageBox.Show("Evento: " + vuelta);
+
 
             if (cbPlayer.SelectedIndex == 0)
             {
@@ -143,7 +144,7 @@ namespace appDota
         {
             // Contador de checks xROL activos
             int contadorChecks = 0;
-            bool[] Hc_Mid_Support = new bool[] {chkHC.Checked,chkMID.Checked,chkSupport.Checked};
+            bool[] Hc_Mid_Support = new bool[] { chkHC.Checked, chkMID.Checked, chkSupport.Checked };
 
             foreach (var item in Hc_Mid_Support)
             {
@@ -152,7 +153,7 @@ namespace appDota
                     contadorChecks++;
                 }
             }
-            
+
 
             if (txtMMR.Text != string.Empty)
             {
@@ -162,25 +163,6 @@ namespace appDota
                 // Si hay más de 1 chkBox marcado  y desmarcamos 1, que el mmr siga contando el chkBox activo
                 //Al desmarcar el checkbox el dato es falso, lo convertimos a true
 
-                #region Código Muji
-                /*
-                if (checkBox == false && contadorChecks >= 1)
-                {
-                    // Calcula el mmr adicional V2
-                    mmrActual = Convert.ToInt32(txtMMR2.Text);
-                    mmrxROL = obtenerMedalla.MMRxROL(mmrActual, true);
-                    txtMMR2.Text = mmrxROL.ToString();
-                }
-
-                if (checkBox == false && contadorChecks >= 2)
-                {
-                    // Calcula el mmr adicional V3
-                    mmrActual = Convert.ToInt32(txtMMR2.Text);
-                    mmrxROL = obtenerMedalla.MMRxROL(mmrActual, true);
-                    txtMMR2.Text = mmrxROL.ToString();
-                }
-                */
-                #endregion
 
                 if (checkBox == false && contadorChecks >= 1)
                 {

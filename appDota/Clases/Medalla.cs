@@ -124,48 +124,5 @@ namespace appDota.Clases
             }
         }
 
-        public int MMRxROL(int MMR, bool sumarOrestar, string iDcheckBox)
-        {
-            if (iDcheckBox == "HC" || iDcheckBox == "MID" || iDcheckBox == "Support")
-            {
-                if (MMR >= 9000)
-                {
-                    return sumarOrestar ? 100 + MMR : MMR;
-                }
-                else if (MMR >= 8000)
-                {
-                    return sumarOrestar ? 150 + MMR : MMR;
-                }
-                else if (MMR >= 7000)
-                {
-                    return sumarOrestar ? 200 + MMR : MMR;
-                }
-                else if (MMR >= 6000)
-                {
-                    return sumarOrestar ? 250 + MMR : MMR;
-                }
-                else if (MMR >= 5000)
-                {
-                    return sumarOrestar ? 300 + MMR : MMR;
-                }
-                else if (MMR >= 4000)
-                {
-                    return sumarOrestar ? 350 + MMR : MMR;
-                }
-                else if (MMR >= 3000)
-                {
-                    return sumarOrestar ? 400 + MMR : MMR;
-                }
-                else if (MMR >= 2000)
-                {
-                    return sumarOrestar ? 450 + MMR : MMR;
-                }
-                else
-                {
-                    return sumarOrestar ? 500 + MMR : MMR;
-                }
-            }
-            return 0;
-        }
     }
 }

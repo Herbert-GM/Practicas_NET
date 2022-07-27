@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\Mensaje.cs" />
+    <Compile Include="clases\Validacion.cs" />
     <Compile Include="Constantes.cs" />
     <Compile Include="modelo\Numero.cs" />
     <Compile Include="Form1.cs">
